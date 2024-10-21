@@ -1,10 +1,9 @@
 package com.example.assignment3.fragments
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
@@ -14,6 +13,7 @@ import com.example.assignment3.AddSongActivity
 import com.example.assignment3.R
 import com.example.assignment3.Song
 import com.example.assignment3.SongAdapter
+import com.example.assignment3.UsersActivity
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.database.DataSnapshot
@@ -28,14 +28,26 @@ class MainFrag : Fragment(R.layout.fragment_main), SongAdapter.OnItemClickListen
     private lateinit var songAdapter: SongAdapter
     private lateinit var songList: MutableList<Song>
     private lateinit var database: DatabaseReference
+    private lateinit var userId: String
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Initialize the FAB
+        // Retrieve user ID from SharedPreferences
+        val sharedPreferences = requireContext().getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
+        userId = sharedPreferences.getString("unique_id", "") ?: ""
+
+        // Initialize the FAB for adding songs
         val fabButton: FloatingActionButton = view.findViewById(R.id.fab)
         fabButton.setOnClickListener {
             val intent = Intent(requireContext(), AddSongActivity::class.java)
+            startActivity(intent)
+        }
+
+        // Initialize the FAB for navigating to UsersActivity
+        val fabProfileButton: FloatingActionButton = view.findViewById(R.id.fab_profile)
+        fabProfileButton.setOnClickListener {
+            val intent = Intent(requireContext(), UsersActivity::class.java)
             startActivity(intent)
         }
 
@@ -49,7 +61,7 @@ class MainFrag : Fragment(R.layout.fragment_main), SongAdapter.OnItemClickListen
         recyclerView.adapter = songAdapter
 
         // Initialize Firebase Database
-        database = FirebaseDatabase.getInstance().reference.child("songs")
+        database = FirebaseDatabase.getInstance().reference.child("users").child(userId).child("songs")
 
         // Fetch songs from Firebase
         fetchSongsFromFirebase()

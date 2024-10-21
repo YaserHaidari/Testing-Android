@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.example.assignment3.app-mergeDebugResources-47:/layout/activity_users.xml",
+        "source": "com.example.assignment3.app-main-50:/layout/activity_users.xml"
+    },
+    {
         "merged": "/Users/zero/.gradle/daemon/8.7/com.example.assignment3.app-mergeDebugResources-47:/layout/fragment_main.xml",
         "source": "/Users/zero/.gradle/daemon/8.7/com.example.assignment3.app-main-50:/layout/fragment_main.xml"
     },
@@ -8,16 +12,20 @@
         "source": "/Users/zero/.gradle/daemon/8.7/com.example.assignment3.app-main-50:/layout/fragment_edit_song.xml"
     },
     {
+        "merged": "com.example.assignment3.app-mergeDebugResources-47:/layout/item_user.xml",
+        "source": "com.example.assignment3.app-main-50:/layout/item_user.xml"
+    },
+    {
+        "merged": "/Users/zero/.gradle/daemon/8.7/com.example.assignment3.app-mergeDebugResources-47:/layout/activity_users.xml",
+        "source": "/Users/zero/.gradle/daemon/8.7/com.example.assignment3.app-main-50:/layout/activity_users.xml"
+    },
+    {
         "merged": "/Users/zero/.gradle/daemon/8.7/com.example.assignment3.app-mergeDebugResources-47:/layout/fragment_splash_screen.xml",
         "source": "/Users/zero/.gradle/daemon/8.7/com.example.assignment3.app-main-50:/layout/fragment_splash_screen.xml"
     },
     {
         "merged": "/Users/zero/.gradle/daemon/8.7/com.example.assignment3.app-mergeDebugResources-47:/layout/activity_main.xml",
         "source": "/Users/zero/.gradle/daemon/8.7/com.example.assignment3.app-main-50:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.example.assignment3.app-mergeDebugResources-47:/layout/list_item.xml",
-        "source": "com.example.assignment3.app-main-50:/layout/list_item.xml"
     },
     {
         "merged": "/Users/zero/.gradle/daemon/8.7/com.example.assignment3.app-mergeDebugResources-47:/layout/list_item.xml",

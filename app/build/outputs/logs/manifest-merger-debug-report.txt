@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.databinding:viewbinding:8.5.1] /Users/zero/.gradle/caches/transforms-4/6f653288fd2ff97a409def8ab1f1245b/transformed/viewbinding-8.5.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.8.3] /Users/zero/.gradle/caches/transforms-4/791ef949b0807615661759b4a4f7999c/transformed/navigation-common-2.8.3/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.8.3] /Users/zero/.gradle/caches/transforms-4/b0f1f384b0c24ff6a58e791ccbce967a/transformed/navigation-runtime-2.8.3/AndroidManifest.xml:17:1-22:12
@@ -88,8 +88,8 @@ MERGED from [androidx.print:print:1.0.0] /Users/zero/.gradle/caches/transforms-4
 	xmlns:android
 		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:5:5-27:19
-INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:5:5-27:19
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:5:5-30:19
+INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:5:5-30:19
 MERGED from [com.google.android.material:material:1.12.0] /Users/zero/.gradle/caches/transforms-4/0582a1594fdfa8dbe8dfff80fdf5cdbb/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /Users/zero/.gradle/caches/transforms-4/0582a1594fdfa8dbe8dfff80fdf5cdbb/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-storage-ktx:20.2.1] /Users/zero/.gradle/caches/transforms-4/b1c6f866239a4f63f9dbb21e47ea0963/transformed/firebase-storage-ktx-20.2.1/AndroidManifest.xml:10:5-18:19
@@ -162,28 +162,34 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/zero/.gradle/ca
 		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:13:9-49
 	android:dataExtractionRules
 		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.example.assignment3.AddSongActivity
+activity#com.example.assignment3.UsersActivity
 ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:16:13-44
-activity#com.example.assignment3.MainActivity
-ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:18:9-26:20
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:16:13-42
+activity#com.example.assignment3.AddSongActivity
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:18:9-20:40
 	android:exported
-		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:20:13-36
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:19:13-41
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:19:13-44
+activity#com.example.assignment3.MainActivity
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:22:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:27:27-74
 uses-sdk
 INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml

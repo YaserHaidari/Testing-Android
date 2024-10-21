@@ -29,4 +29,7 @@
         android:name="com.example.assignment3.fragments.EditSongFragment"
         android:label="Edit Song"
         tools:layout="@layout/fragment_edit_song"/>
+    <action
+        android:id="@+id/action_editFragment_to_mainFragment"
+        app:destination="@id/mainFragment" />
 </navigation>

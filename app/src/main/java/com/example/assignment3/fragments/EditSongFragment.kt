@@ -72,7 +72,7 @@ class EditSongFragment : Fragment(R.layout.fragment_edit_song) {
             database.child(songKey!!).updateChildren(updatedSong).addOnCompleteListener { task ->
                 if (task.isSuccessful) {
                     Toast.makeText(requireContext(), "Song updated successfully!", Toast.LENGTH_SHORT).show()
-//                    findNavController().navigate(R.id.editSongFragment_to_main)
+                    findNavController().navigate(R.id.action_editFragment_to_mainFragment)
 
                 } else {
                     Toast.makeText(requireContext(), "Failed to update song: ${task.exception?.message}", Toast.LENGTH_SHORT).show()

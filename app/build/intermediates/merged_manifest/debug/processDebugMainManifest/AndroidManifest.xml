@@ -33,6 +33,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Assignment3" >
         <activity
+            android:name="com.example.assignment3.UsersActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.assignment3.AddSongActivity"
             android:exported="false" />
         <activity

@@ -24,12 +24,16 @@ public final class FragmentMainBinding implements ViewBinding {
   public final FloatingActionButton fab;
 
   @NonNull
+  public final FloatingActionButton fabProfile;
+
+  @NonNull
   public final RecyclerView recyclerView;
 
   private FragmentMainBinding(@NonNull ConstraintLayout rootView, @NonNull FloatingActionButton fab,
-      @NonNull RecyclerView recyclerView) {
+      @NonNull FloatingActionButton fabProfile, @NonNull RecyclerView recyclerView) {
     this.rootView = rootView;
     this.fab = fab;
+    this.fabProfile = fabProfile;
     this.recyclerView = recyclerView;
   }
 
@@ -66,13 +70,19 @@ public final class FragmentMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.fab_profile;
+      FloatingActionButton fabProfile = ViewBindings.findChildViewById(rootView, id);
+      if (fabProfile == null) {
+        break missingId;
+      }
+
       id = R.id.recyclerView;
       RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
       if (recyclerView == null) {
         break missingId;
       }
 
-      return new FragmentMainBinding((ConstraintLayout) rootView, fab, recyclerView);
+      return new FragmentMainBinding((ConstraintLayout) rootView, fab, fabProfile, recyclerView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,6 +1,7 @@
 package com.example.assignment3
 
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -14,7 +15,6 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageReference
-import java.util.*
 
 class AddSongActivity : AppCompatActivity() {
     private lateinit var database: DatabaseReference
@@ -24,12 +24,18 @@ class AddSongActivity : AppCompatActivity() {
     private lateinit var songAlbum: EditText
     private lateinit var songImage: ImageView
     private var selectedImageUri: Uri? = null
+    private lateinit var userId: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_song)
 
-        database = FirebaseDatabase.getInstance().reference
+        // Get user ID from SharedPreferences
+        val sharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
+        userId = sharedPreferences.getString("unique_id", "") ?: ""
+
+        // Initialize Firebase references
+        database = FirebaseDatabase.getInstance().reference.child("users").child(userId).child("songs")
         storageReference = FirebaseStorage.getInstance().reference
 
         songName = findViewById(R.id.et_song_name)
@@ -74,7 +80,7 @@ class AddSongActivity : AppCompatActivity() {
         }
 
         // Create a unique key for each song entry
-        val songKey = database.child("songs").push().key
+        val songKey = database.push().key
         if (songKey == null) {
             Toast.makeText(this, "Failed to generate song key", Toast.LENGTH_SHORT).show()
             return
@@ -92,7 +98,7 @@ class AddSongActivity : AppCompatActivity() {
                 )
 
                 // Write to the database
-                database.child("songs").child(songKey).setValue(songData).addOnCompleteListener { task ->
+                database.child(songKey).setValue(songData).addOnCompleteListener { task ->
                     if (task.isSuccessful) {
                         Toast.makeText(this, "Song added successfully!", Toast.LENGTH_SHORT).show()
                         finish() // Close the activity after successful submission

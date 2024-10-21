@@ -3058,6 +3058,7 @@ int drawable abc_vector_test 0x7f070077
 int drawable avd_hide_password 0x7f070078
 int drawable avd_show_password 0x7f070079
 int drawable baseline_add_24 0x7f07007a
+int drawable baseline_person_24 0x7f070100
 int drawable btn_checkbox_checked_mtrl 0x7f07007b
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07007c
 int drawable btn_checkbox_unchecked_mtrl 0x7f07007d
@@ -3252,6 +3253,7 @@ int id action_bar_title 0x7f080039
 int id action_container 0x7f08003a
 int id action_context_bar 0x7f08003b
 int id action_divider 0x7f08003c
+int id action_editFragment_to_mainFragment 0x7f080219
 int id action_image 0x7f08003d
 int id action_mainFragment_to_editSongFragment 0x7f08003e
 int id action_menu_divider 0x7f08003f
@@ -3299,6 +3301,7 @@ int id bounceEnd 0x7f080068
 int id bounceStart 0x7f080069
 int id btn_select_image 0x7f08006a
 int id btn_submit 0x7f08006b
+int id btn_submit_name 0x7f08021b
 int id buttonPanel 0x7f08006c
 int id cache_measures 0x7f08006d
 int id callMeasure 0x7f08006e
@@ -3386,10 +3389,12 @@ int id escape 0x7f0800bf
 int id et_album_name 0x7f0800c0
 int id et_artist_name 0x7f0800c1
 int id et_song_name 0x7f0800c2
+int id et_user_name 0x7f08021c
 int id exitUntilCollapsed 0x7f0800c3
 int id expand_activities_button 0x7f0800c4
 int id expanded_menu 0x7f0800c5
 int id fab 0x7f0800c6
+int id fab_profile 0x7f08021a
 int id fade 0x7f0800c7
 int id fill 0x7f0800c8
 int id fill_horizontal 0x7f0800c9
@@ -3579,6 +3584,7 @@ int id radio 0x7f080180
 int id ratio 0x7f080181
 int id rectangles 0x7f080182
 int id recyclerView 0x7f080183
+int id recyclerViewUsers 0x7f08021e
 int id report_drawn 0x7f080184
 int id reverseSawtooth 0x7f080185
 int id right 0x7f080186
@@ -3704,6 +3710,7 @@ int id transition_position 0x7f0801fd
 int id transition_scene_layoutid_cache 0x7f0801fe
 int id transition_transform 0x7f0801ff
 int id triangle 0x7f080200
+int id tv_user_name 0x7f08021f
 int id unchecked 0x7f080201
 int id uniform 0x7f080202
 int id unlabeled 0x7f080203
@@ -3846,6 +3853,7 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_add_song 0x7f0b001c
 int layout activity_main 0x7f0b001d
+int layout activity_users 0x7f0b0071
 int layout custom_dialog 0x7f0b001e
 int layout design_bottom_navigation_item 0x7f0b001f
 int layout design_bottom_sheet_dialog 0x7f0b0020
@@ -3867,6 +3875,7 @@ int layout fragment_main 0x7f0b002f
 int layout fragment_splash_screen 0x7f0b0030
 int layout ime_base_split_test_activity 0x7f0b0031
 int layout ime_secondary_split_test_activity 0x7f0b0032
+int layout item_user 0x7f0b0072
 int layout list_item 0x7f0b0033
 int layout m3_alert_dialog 0x7f0b0034
 int layout m3_alert_dialog_actions 0x7f0b0035
