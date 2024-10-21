@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://mobiledev-todo-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">425629527768</string>
+    <string name="google_api_key" translatable="false">AIzaSyCwEg3WPdE6zxmoD9U6-9FJHIJ6zB-8OsU</string>
+    <string name="google_app_id" translatable="false">1:425629527768:android:5d97daeffc1443303c31ad</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCwEg3WPdE6zxmoD9U6-9FJHIJ6zB-8OsU</string>
+    <string name="google_storage_bucket" translatable="false">mobiledev-todo.appspot.com</string>
+    <string name="project_id" translatable="false">mobiledev-todo</string>
+</resources>

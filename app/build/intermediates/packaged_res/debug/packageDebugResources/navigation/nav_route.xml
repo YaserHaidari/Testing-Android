@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_route"
+    app:startDestination="@id/splashFrag">
+
+    <fragment
+        android:id="@+id/splashFrag"
+        android:name="com.example.assignment3.fragments.SplashFrag"
+        tools:layout="@layout/fragment_splash_screen">
+        <action
+            android:id="@+id/action_splashFrag_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.assignment3.fragments.MainFrag"
+        android:label="Main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_editSongFragment"
+            app:destination="@id/editSongFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/editSongFragment"
+        android:name="com.example.assignment3.fragments.EditSongFragment"
+        android:label="Edit Song"
+        tools:layout="@layout/fragment_edit_song"/>
+</navigation>

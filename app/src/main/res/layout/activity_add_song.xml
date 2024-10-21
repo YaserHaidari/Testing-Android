@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddSongActivity">
+
+   <EditText
+       android:id="@+id/et_song_name"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Song Name" />
+
+   <EditText
+       android:id="@+id/et_artist_name"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Artist Name" />
+
+   <EditText
+       android:id="@+id/et_album_name"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Album Name" />
+
+   <ImageView
+       android:id="@+id/iv_song_image"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:layout_marginTop="16dp"
+       android:contentDescription="Song Image"
+       android:scaleType="centerCrop"
+       android:src="@drawable/ic_launcher_background" />
+
+   <Button
+       android:id="@+id/btn_select_image"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Select Image" />
+
+   <Button
+       android:id="@+id/btn_submit"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Submit" />
+
+</LinearLayout>

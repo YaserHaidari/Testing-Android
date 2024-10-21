@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "425629527768",
+    "firebase_url": "https://mobiledev-todo-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mobiledev-todo",
+    "storage_bucket": "mobiledev-todo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425629527768:android:5d97daeffc1443303c31ad",
+        "android_client_info": {
+          "package_name": "com.example.assignment3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwEg3WPdE6zxmoD9U6-9FJHIJ6zB-8OsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

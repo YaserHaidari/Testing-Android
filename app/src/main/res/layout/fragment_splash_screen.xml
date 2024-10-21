@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".fragments.SplashFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- Splash Screen with a simple text name of the appp -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/splashfrag_title"
+        android:textColor="@color/gold"
+        android:gravity="center"
+        android:textSize="38sp"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:textAlignment="center"
+        android:shadowRadius="2"
+        android:fontFamily="casual"
+        android:textFontWeight="900"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="186dp" />
+</FrameLayout>

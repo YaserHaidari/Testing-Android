@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#4542f5</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="gold">#16f525</color>
+    <color name="toolbarBackgroundColor">#6200EE</color>
+    <color name="toolbarTextColor">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <string name="app_name">Assignment3</string>
+    <string name="firebase_database_url" translatable="false">https://mobiledev-todo-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">425629527768</string>
+    <string name="google_api_key" translatable="false">AIzaSyCwEg3WPdE6zxmoD9U6-9FJHIJ6zB-8OsU</string>
+    <string name="google_app_id" translatable="false">1:425629527768:android:5d97daeffc1443303c31ad</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCwEg3WPdE6zxmoD9U6-9FJHIJ6zB-8OsU</string>
+    <string name="google_storage_bucket" translatable="false">mobiledev-todo.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">mobiledev-todo</string>
+    <string name="splashfrag_title">Music Mate</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="android:textColorPrimary">@color/toolbarTextColor</item>
+            <item name="android:windowBackground">@color/windowBackground</item>
+        </style>
+    <style name="Base.Theme.Assignment3" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Assignment3" parent="Base.Theme.Assignment3"/>
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+            <item name="android:textColorPrimary">@color/toolbarTextColor</item>
+            <item name="android:background">@color/toolbarBackgroundColor</item>
+        </style>
+</resources>
