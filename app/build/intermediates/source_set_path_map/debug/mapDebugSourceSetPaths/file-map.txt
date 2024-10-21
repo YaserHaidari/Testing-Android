@@ -34,18 +34,19 @@ com.example.assignment3.app-fragment-ktx-1.6.2-32 /Users/zero/.gradle/caches/tra
 com.example.assignment3.app-recyclerview-1.1.0-33 /Users/zero/.gradle/caches/transforms-4/c94adaeebebf39600aae10ee7e11f759/transformed/recyclerview-1.1.0/res
 com.example.assignment3.app-slidingpanelayout-1.2.0-34 /Users/zero/.gradle/caches/transforms-4/dadd034e1aff0f7615efc542f7df1e46/transformed/slidingpanelayout-1.2.0/res
 com.example.assignment3.app-transition-1.5.0-35 /Users/zero/.gradle/caches/transforms-4/e0709e2f292534b3041cb451fda862cf/transformed/transition-1.5.0/res
-com.example.assignment3.app-viewpager2-1.0.0-36 /Users/zero/.gradle/caches/transforms-4/e8c2d7a226c3d5555711409924946f26/transformed/viewpager2-1.0.0/res
-com.example.assignment3.app-activity-ktx-1.9.2-37 /Users/zero/.gradle/caches/transforms-4/ecdc65639dfec1557c52c04bd0e46a16/transformed/activity-ktx-1.9.2/res
-com.example.assignment3.app-fragment-1.6.2-38 /Users/zero/.gradle/caches/transforms-4/ef2c251268f3c70e0085ce567c4ba92f/transformed/fragment-1.6.2/res
-com.example.assignment3.app-lifecycle-livedata-core-ktx-2.6.2-39 /Users/zero/.gradle/caches/transforms-4/efdcf2247719e08d8b0a20417664f4f3/transformed/lifecycle-livedata-core-ktx-2.6.2/res
-com.example.assignment3.app-savedstate-ktx-1.2.1-40 /Users/zero/.gradle/caches/transforms-4/f814fce9490e949df996475795513d24/transformed/savedstate-ktx-1.2.1/res
-com.example.assignment3.app-activity-1.9.2-41 /Users/zero/.gradle/caches/transforms-4/febfda78254986332abcdb4281ab19ba/transformed/activity-1.9.2/res
-com.example.assignment3.app-lifecycle-runtime-ktx-2.6.2-42 /Users/zero/.gradle/caches/transforms-4/ffe7ce432932d64ac7865a4f2260e90e/transformed/lifecycle-runtime-ktx-2.6.2/res
-com.example.assignment3.app-pngs-43 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/build/generated/res/pngs/debug
-com.example.assignment3.app-res-44 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/build/generated/res/processDebugGoogleServices
-com.example.assignment3.app-resValues-45 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/build/generated/res/resValues/debug
-com.example.assignment3.app-packageDebugResources-46 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.assignment3.app-packageDebugResources-47 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.assignment3.app-debug-48 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/build/intermediates/merged_res/debug/mergeDebugResources
-com.example.assignment3.app-debug-49 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/debug/res
-com.example.assignment3.app-main-50 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/res
+com.example.assignment3.app-coil-base-1.3.2-36 /Users/zero/.gradle/caches/transforms-4/e3394286e793291e6bdd13481264cf28/transformed/coil-base-1.3.2/res
+com.example.assignment3.app-viewpager2-1.0.0-37 /Users/zero/.gradle/caches/transforms-4/e8c2d7a226c3d5555711409924946f26/transformed/viewpager2-1.0.0/res
+com.example.assignment3.app-activity-ktx-1.9.2-38 /Users/zero/.gradle/caches/transforms-4/ecdc65639dfec1557c52c04bd0e46a16/transformed/activity-ktx-1.9.2/res
+com.example.assignment3.app-fragment-1.6.2-39 /Users/zero/.gradle/caches/transforms-4/ef2c251268f3c70e0085ce567c4ba92f/transformed/fragment-1.6.2/res
+com.example.assignment3.app-lifecycle-livedata-core-ktx-2.6.2-40 /Users/zero/.gradle/caches/transforms-4/efdcf2247719e08d8b0a20417664f4f3/transformed/lifecycle-livedata-core-ktx-2.6.2/res
+com.example.assignment3.app-savedstate-ktx-1.2.1-41 /Users/zero/.gradle/caches/transforms-4/f814fce9490e949df996475795513d24/transformed/savedstate-ktx-1.2.1/res
+com.example.assignment3.app-activity-1.9.2-42 /Users/zero/.gradle/caches/transforms-4/febfda78254986332abcdb4281ab19ba/transformed/activity-1.9.2/res
+com.example.assignment3.app-lifecycle-runtime-ktx-2.6.2-43 /Users/zero/.gradle/caches/transforms-4/ffe7ce432932d64ac7865a4f2260e90e/transformed/lifecycle-runtime-ktx-2.6.2/res
+com.example.assignment3.app-pngs-44 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/build/generated/res/pngs/debug
+com.example.assignment3.app-res-45 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/build/generated/res/processDebugGoogleServices
+com.example.assignment3.app-resValues-46 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/build/generated/res/resValues/debug
+com.example.assignment3.app-packageDebugResources-47 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.assignment3.app-packageDebugResources-48 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.assignment3.app-debug-49 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.assignment3.app-debug-50 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/debug/res
+com.example.assignment3.app-main-51 /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/res

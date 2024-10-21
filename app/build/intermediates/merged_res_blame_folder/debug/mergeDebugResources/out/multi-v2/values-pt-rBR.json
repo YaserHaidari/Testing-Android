@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.assignment3.app-mergeDebugResources-46:/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "com.example.assignment3.app-mergeDebugResources-47:/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "/Users/zero/.gradle/caches/transforms-4/74b0175c408dfc5cbc82522f145cac55/transformed/play-services-base-18.1.0/res/values-pt-rBR/values.xml",

@@ -23,6 +23,7 @@ id action_splashFrag_to_mainFragment
 id album_name
 id app_bar_layout
 id artist_name
+id btn_copy_songs
 id btn_select_image
 id btn_submit
 id btn_submit_name
@@ -33,6 +34,7 @@ id et_song_name
 id et_user_name
 id fab
 id fab_profile
+id imageView
 id iv_song_image
 id like_button
 id mainFragment
@@ -42,10 +44,12 @@ id recyclerView
 id recyclerViewUsers
 id song_image
 id song_name
+id spinner_library
 id splashFrag
 id toolbar
 id tv_user_name
 layout activity_add_song
+layout activity_image_loading
 layout activity_main
 layout activity_users
 layout fragment_edit_song

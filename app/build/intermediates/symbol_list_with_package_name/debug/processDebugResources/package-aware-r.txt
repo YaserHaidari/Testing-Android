@@ -3300,6 +3300,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn_copy_songs
 id btn_select_image
 id btn_submit
 id btn_submit_name
@@ -3325,6 +3326,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
+id coil_request_manager
 id collapseActionView
 id compress
 id confirm_button
@@ -3436,6 +3438,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
@@ -3639,6 +3642,7 @@ id song_name
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinner_library
 id splashFrag
 id spline
 id split_action_bar
@@ -3853,6 +3857,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_song
+layout activity_image_loading
 layout activity_main
 layout activity_users
 layout custom_dialog

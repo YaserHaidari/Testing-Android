@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -21,6 +22,10 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.tasks.await
+import kotlinx.coroutines.withContext
 
 class MainFrag : Fragment(R.layout.fragment_main), SongAdapter.OnItemClickListener {
 
@@ -68,8 +73,11 @@ class MainFrag : Fragment(R.layout.fragment_main), SongAdapter.OnItemClickListen
     }
 
     private fun fetchSongsFromFirebase() {
-        database.addValueEventListener(object : ValueEventListener {
-            override fun onDataChange(snapshot: DataSnapshot) {
+        lifecycleScope.launch {
+            try {
+                val snapshot = withContext(Dispatchers.IO) {
+                    database.get().await()
+                }
                 songList.clear()
                 for (songSnapshot in snapshot.children) {
                     val song = songSnapshot.getValue(Song::class.java)
@@ -78,12 +86,10 @@ class MainFrag : Fragment(R.layout.fragment_main), SongAdapter.OnItemClickListen
                     }
                 }
                 songAdapter.notifyDataSetChanged()
+            } catch (e: Exception) {
+                Toast.makeText(requireContext(), "Failed to load songs: ${e.message}", Toast.LENGTH_SHORT).show()
             }
-
-            override fun onCancelled(error: DatabaseError) {
-                Toast.makeText(requireContext(), "Failed to load songs: ${error.message}", Toast.LENGTH_SHORT).show()
-            }
-        })
+        }
     }
 
     override fun onItemClick(song: Song) {
@@ -91,12 +97,15 @@ class MainFrag : Fragment(R.layout.fragment_main), SongAdapter.OnItemClickListen
     }
 
     override fun onLikeClick(song: Song) {
-        song.liked = !song.liked
-        database.child(song.key).child("liked").setValue(song.liked).addOnCompleteListener { task ->
-            if (task.isSuccessful) {
+        lifecycleScope.launch {
+            try {
+                song.liked = !song.liked
+                withContext(Dispatchers.IO) {
+                    database.child(song.key).child("liked").setValue(song.liked).await()
+                }
                 songAdapter.notifyDataSetChanged()
-            } else {
-                Toast.makeText(requireContext(), "Failed to update like status: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
+            } catch (e: Exception) {
+                Toast.makeText(requireContext(), "Failed to update like status: ${e.message}", Toast.LENGTH_SHORT).show()
             }
         }
     }
@@ -121,11 +130,14 @@ class MainFrag : Fragment(R.layout.fragment_main), SongAdapter.OnItemClickListen
     }
 
     private fun deleteSongFromFirebase(songKey: String) {
-        database.child(songKey).removeValue().addOnCompleteListener { task ->
-            if (task.isSuccessful) {
+        lifecycleScope.launch {
+            try {
+                withContext(Dispatchers.IO) {
+                    database.child(songKey).removeValue().await()
+                }
                 Toast.makeText(requireContext(), "Song deleted successfully!", Toast.LENGTH_SHORT).show()
-            } else {
-                Toast.makeText(requireContext(), "Failed to delete song: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
+            } catch (e: Exception) {
+                Toast.makeText(requireContext(), "Failed to delete song: ${e.message}", Toast.LENGTH_SHORT).show()
             }
         }
     }

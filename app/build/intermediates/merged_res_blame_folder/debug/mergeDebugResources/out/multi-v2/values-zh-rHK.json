@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.assignment3.app-mergeDebugResources-46:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.example.assignment3.app-mergeDebugResources-47:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "/Users/zero/.gradle/caches/transforms-4/44f8e4c74fe5aa4abad4f14a11c12c5d/transformed/navigation-ui-2.8.3/res/values-zh-rHK/values-zh-rHK.xml",

@@ -50,12 +50,19 @@ dependencies {
     implementation("com.google.firebase:firebase-database-ktx")
     implementation("com.google.firebase:firebase-storage-ktx")
     implementation("com.google.firebase:firebase-appcheck-playintegrity") // Firebase App Check
-    implementation("com.github.bumptech.glide:glide:4.12.0") // Glide dependency
 
+    // Image Loading Libraries
+    implementation("com.github.bumptech.glide:glide:4.12.0") // Glide dependency
+    annotationProcessor("com.github.bumptech.glide:compiler:4.12.0") // Glide annotation processor
+    implementation("com.squareup.picasso:picasso:2.71828") // Picasso dependency
+    implementation("io.coil-kt:coil:1.3.2") // Coil dependency
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
 
     val nav_version = "2.8.3"
     implementation("androidx.navigation:navigation-fragment:$nav_version")

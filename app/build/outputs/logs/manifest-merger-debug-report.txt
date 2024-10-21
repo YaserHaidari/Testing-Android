@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-32:12
-INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-32:12
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-35:12
+INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:1-35:12
 MERGED from [androidx.databinding:viewbinding:8.5.1] /Users/zero/.gradle/caches/transforms-4/6f653288fd2ff97a409def8ab1f1245b/transformed/viewbinding-8.5.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.8.3] /Users/zero/.gradle/caches/transforms-4/791ef949b0807615661759b4a4f7999c/transformed/navigation-common-2.8.3/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.8.3] /Users/zero/.gradle/caches/transforms-4/b0f1f384b0c24ff6a58e791ccbce967a/transformed/navigation-runtime-2.8.3/AndroidManifest.xml:17:1-22:12
@@ -13,6 +13,8 @@ MERGED from [com.google.android.material:material:1.12.0] /Users/zero/.gradle/ca
 MERGED from [com.google.firebase:firebase-storage-ktx:20.2.1] /Users/zero/.gradle/caches/transforms-4/b1c6f866239a4f63f9dbb21e47ea0963/transformed/firebase-storage-ktx-20.2.1/AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.firebase:firebase-database-ktx:20.2.2] /Users/zero/.gradle/caches/transforms-4/36f417fe933f67482b446b7e34e3768d/transformed/firebase-database-ktx-20.2.2/AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.3.3] /Users/zero/.gradle/caches/transforms-4/9a5f3be46684e519c0af52bc7e6d8dfa/transformed/firebase-common-ktx-20.3.3/AndroidManifest.xml:2:1-20:12
+MERGED from [io.coil-kt:coil:1.3.2] /Users/zero/.gradle/caches/transforms-4/3c0face21ed1151611bc6c95ff74468e/transformed/coil-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [io.coil-kt:coil-base:1.3.2] /Users/zero/.gradle/caches/transforms-4/e3394286e793291e6bdd13481264cf28/transformed/coil-base-1.3.2/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/zero/.gradle/caches/transforms-4/4a59a4c3b2701a3d9a2cfe064f305c84/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/zero/.gradle/caches/transforms-4/8ed0069b96815a64f477e5ef4360edda/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/zero/.gradle/caches/transforms-4/2b6f33bc980d47e5d61d91a0a83d9888/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
@@ -63,6 +65,7 @@ MERGED from [androidx.core:core:1.13.1] /Users/zero/.gradle/caches/transforms-4/
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/zero/.gradle/caches/transforms-4/b5a177c68da7160b0269dbb0a92a0faa/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/zero/.gradle/caches/transforms-4/99c364745f9d898cae60698d1599dda7/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/zero/.gradle/caches/transforms-4/247bc1b5e0c20f1b51e659887a3af039/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/zero/.gradle/caches/transforms-4/92fe459c994a419d616cb249ec558122/transformed/picasso-2.71828/AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zero/.gradle/caches/transforms-4/2027e2425da233900eedd268fb9407e6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/zero/.gradle/caches/transforms-4/d7073e79b4c45d15623e1b4afe411023/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zero/.gradle/caches/transforms-4/c0b8abe67a67fb8366f0c6e732f43ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
@@ -70,13 +73,14 @@ MERGED from [androidx.cardview:cardview:1.0.0] /Users/zero/.gradle/caches/transf
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/zero/.gradle/caches/transforms-4/a6a5c2dfe10d6a21b529c6d178687850/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/zero/.gradle/caches/transforms-4/2612422c1f7d2b0ee5b4f0bec7f07b2c/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/zero/.gradle/caches/transforms-4/d2a1c20a4b88cb84c1c2ed3826064f4c/transformed/gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/zero/.gradle/caches/transforms-4/341e20ed610a20486e4a9698fc3f1275/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/zero/.gradle/caches/transforms-4/4475cdbc02339da9df511ae23f1966ab/transformed/firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/zero/.gradle/caches/transforms-4/c88ffa9edc69cc09969a368c6cec46d0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/zero/.gradle/caches/transforms-4/84a857a74e2bb5d43e890fe804ac52b2/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/zero/.gradle/caches/transforms-4/66645e7717bd3949774da1896a131fe0/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/zero/.gradle/caches/transforms-4/f78e93cab6e092a7602032191c4a48e6/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/zero/.gradle/caches/transforms-4/fadc91d88f2ec060d01128304177780e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/zero/.gradle/caches/transforms-4/1d4351ec59481603ad9efbe12d99a1ec/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/zero/.gradle/caches/transforms-4/4de2593e7f6f68410fda61913195076b/transformed/exifinterface-27.1.0/AndroidManifest.xml:17:1-22:12
 	package
 		INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -88,8 +92,8 @@ MERGED from [androidx.print:print:1.0.0] /Users/zero/.gradle/caches/transforms-4
 	xmlns:android
 		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:5:5-30:19
-INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:5:5-30:19
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:5:5-33:19
+INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:5:5-33:19
 MERGED from [com.google.android.material:material:1.12.0] /Users/zero/.gradle/caches/transforms-4/0582a1594fdfa8dbe8dfff80fdf5cdbb/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /Users/zero/.gradle/caches/transforms-4/0582a1594fdfa8dbe8dfff80fdf5cdbb/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-storage-ktx:20.2.1] /Users/zero/.gradle/caches/transforms-4/b1c6f866239a4f63f9dbb21e47ea0963/transformed/firebase-storage-ktx-20.2.1/AndroidManifest.xml:10:5-18:19
@@ -132,6 +136,8 @@ MERGED from [androidx.window:window:1.0.0] /Users/zero/.gradle/caches/transforms
 MERGED from [androidx.window:window:1.0.0] /Users/zero/.gradle/caches/transforms-4/9942de3f65bf8e1d72c0dbc0fea0b21b/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.core:core:1.13.1] /Users/zero/.gradle/caches/transforms-4/0ab8c538e9bcbf1e9797f5a7c65cffd7/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.13.1] /Users/zero/.gradle/caches/transforms-4/0ab8c538e9bcbf1e9797f5a7c65cffd7/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/zero/.gradle/caches/transforms-4/92fe459c994a419d616cb249ec558122/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/zero/.gradle/caches/transforms-4/92fe459c994a419d616cb249ec558122/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zero/.gradle/caches/transforms-4/2027e2425da233900eedd268fb9407e6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zero/.gradle/caches/transforms-4/2027e2425da233900eedd268fb9407e6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zero/.gradle/caches/transforms-4/c0b8abe67a67fb8366f0c6e732f43ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
@@ -162,34 +168,40 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/zero/.gradle/ca
 		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:13:9-49
 	android:dataExtractionRules
 		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.example.assignment3.UsersActivity
+activity#com.example.assignment3.ImageLoadingActivity
 ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:16:13-42
-activity#com.example.assignment3.AddSongActivity
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:16:13-49
+activity#com.example.assignment3.UsersActivity
 ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:19:13-44
-activity#com.example.assignment3.MainActivity
-ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:21:9-29:20
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:19:13-42
+activity#com.example.assignment3.AddSongActivity
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:21:9-23:40
 	android:exported
-		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:23:13-36
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:22:13-41
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:22:13-44
+activity#com.example.assignment3.MainActivity
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:24:9-32:20
+	android:exported
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:25:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:24:13-28:29
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:27:17-77
+ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:27:27-74
+		ADDED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml:30:27-74
 uses-sdk
 INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml
@@ -212,6 +224,10 @@ MERGED from [com.google.firebase:firebase-database-ktx:20.2.2] /Users/zero/.grad
 MERGED from [com.google.firebase:firebase-database-ktx:20.2.2] /Users/zero/.gradle/caches/transforms-4/36f417fe933f67482b446b7e34e3768d/transformed/firebase-database-ktx-20.2.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-common-ktx:20.3.3] /Users/zero/.gradle/caches/transforms-4/9a5f3be46684e519c0af52bc7e6d8dfa/transformed/firebase-common-ktx-20.3.3/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-common-ktx:20.3.3] /Users/zero/.gradle/caches/transforms-4/9a5f3be46684e519c0af52bc7e6d8dfa/transformed/firebase-common-ktx-20.3.3/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:1.3.2] /Users/zero/.gradle/caches/transforms-4/3c0face21ed1151611bc6c95ff74468e/transformed/coil-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:1.3.2] /Users/zero/.gradle/caches/transforms-4/3c0face21ed1151611bc6c95ff74468e/transformed/coil-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:1.3.2] /Users/zero/.gradle/caches/transforms-4/e3394286e793291e6bdd13481264cf28/transformed/coil-base-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:1.3.2] /Users/zero/.gradle/caches/transforms-4/e3394286e793291e6bdd13481264cf28/transformed/coil-base-1.3.2/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/zero/.gradle/caches/transforms-4/4a59a4c3b2701a3d9a2cfe064f305c84/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/zero/.gradle/caches/transforms-4/4a59a4c3b2701a3d9a2cfe064f305c84/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/zero/.gradle/caches/transforms-4/8ed0069b96815a64f477e5ef4360edda/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
@@ -312,6 +328,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/zero/.grad
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/zero/.gradle/caches/transforms-4/99c364745f9d898cae60698d1599dda7/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/zero/.gradle/caches/transforms-4/247bc1b5e0c20f1b51e659887a3af039/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/zero/.gradle/caches/transforms-4/247bc1b5e0c20f1b51e659887a3af039/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/zero/.gradle/caches/transforms-4/92fe459c994a419d616cb249ec558122/transformed/picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/zero/.gradle/caches/transforms-4/92fe459c994a419d616cb249ec558122/transformed/picasso-2.71828/AndroidManifest.xml:5:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zero/.gradle/caches/transforms-4/2027e2425da233900eedd268fb9407e6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/zero/.gradle/caches/transforms-4/2027e2425da233900eedd268fb9407e6/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/zero/.gradle/caches/transforms-4/d7073e79b4c45d15623e1b4afe411023/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
@@ -326,12 +344,12 @@ MERGED from [androidx.tracing:tracing:1.0.0] /Users/zero/.gradle/caches/transfor
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/zero/.gradle/caches/transforms-4/2612422c1f7d2b0ee5b4f0bec7f07b2c/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/zero/.gradle/caches/transforms-4/d2a1c20a4b88cb84c1c2ed3826064f4c/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/zero/.gradle/caches/transforms-4/d2a1c20a4b88cb84c1c2ed3826064f4c/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/zero/.gradle/caches/transforms-4/341e20ed610a20486e4a9698fc3f1275/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/zero/.gradle/caches/transforms-4/341e20ed610a20486e4a9698fc3f1275/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/zero/.gradle/caches/transforms-4/4475cdbc02339da9df511ae23f1966ab/transformed/firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/zero/.gradle/caches/transforms-4/4475cdbc02339da9df511ae23f1966ab/transformed/firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/zero/.gradle/caches/transforms-4/c88ffa9edc69cc09969a368c6cec46d0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/zero/.gradle/caches/transforms-4/c88ffa9edc69cc09969a368c6cec46d0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/zero/.gradle/caches/transforms-4/84a857a74e2bb5d43e890fe804ac52b2/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/zero/.gradle/caches/transforms-4/84a857a74e2bb5d43e890fe804ac52b2/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/zero/.gradle/caches/transforms-4/66645e7717bd3949774da1896a131fe0/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/zero/.gradle/caches/transforms-4/66645e7717bd3949774da1896a131fe0/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/zero/.gradle/caches/transforms-4/f78e93cab6e092a7602032191c4a48e6/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
@@ -340,6 +358,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/zero/.gradle/caches/transforms-4/fadc91d88f2ec060d01128304177780e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/zero/.gradle/caches/transforms-4/1d4351ec59481603ad9efbe12d99a1ec/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/zero/.gradle/caches/transforms-4/1d4351ec59481603ad9efbe12d99a1ec/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/zero/.gradle/caches/transforms-4/4de2593e7f6f68410fda61913195076b/transformed/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/zero/.gradle/caches/transforms-4/4de2593e7f6f68410fda61913195076b/transformed/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
 		INJECTED from /Users/zero/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Swinburne Sem02/Mobile Development/Assignment3/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
@@ -508,6 +528,14 @@ uses-permission#com.example.assignment3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.1] /Users/zero/.gradle/caches/transforms-4/0ab8c538e9bcbf1e9797f5a7c65cffd7/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.1] /Users/zero/.gradle/caches/transforms-4/0ab8c538e9bcbf1e9797f5a7c65cffd7/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/zero/.gradle/caches/transforms-4/92fe459c994a419d616cb249ec558122/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/zero/.gradle/caches/transforms-4/92fe459c994a419d616cb249ec558122/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/zero/.gradle/caches/transforms-4/92fe459c994a419d616cb249ec558122/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/zero/.gradle/caches/transforms-4/92fe459c994a419d616cb249ec558122/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
 ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/zero/.gradle/caches/transforms-4/c0b8abe67a67fb8366f0c6e732f43ea2/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
 	android:value
